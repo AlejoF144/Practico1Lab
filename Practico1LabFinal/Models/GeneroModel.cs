@@ -8,7 +8,7 @@ namespace Practico1LabFinal.Models
         [MaxLength(200)]
         public string Descripcion { get; set; }
 
-        public ICollection<Pelicula> Peliculas { get; set; }
+        public ICollection<PeliculaModel> Peliculas { get; set; }
     }
 
 }

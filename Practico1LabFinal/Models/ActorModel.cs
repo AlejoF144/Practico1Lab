@@ -10,7 +10,7 @@ namespace Practico1LabFinal.Models
         public DateTime FechaNacimiento { get; set; }
         public string? Foto { get; set; }
 
-        public ICollection<PeliculaActor> ?Peliculas { get; set; }
+        public ICollection<PeliculaActorModel> Peliculas { get; set; }
     }
 
 }

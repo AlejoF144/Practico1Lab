@@ -6,8 +6,8 @@
         public int PeliculaId { get; set; }
         public int PersonaId { get; set; }
 
-        public Pelicula Pelicula { get; set; }
-        public Actor Actor { get; set; }
+        public PeliculaModel Pelicula { get; set; }
+        public ActorModel Actor { get; set; }
     }
 
 }

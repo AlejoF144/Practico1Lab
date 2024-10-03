@@ -14,8 +14,8 @@ namespace Practico1LabFinal.Models
         [MaxLength(100)]
         public string Resumen { get; set; }
 
-        public Genero Genero { get; set; }
-        public ICollection<PeliculaActor> Actores { get; set; }
+        public GeneroModel Genero { get; set; }
+        public ICollection<PeliculaActorModel> Actores { get; set; }
     }
 
 }

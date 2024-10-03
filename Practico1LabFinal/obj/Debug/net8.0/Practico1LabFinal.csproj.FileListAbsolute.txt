@@ -1,0 +1,9 @@
+C:\Users\alejo\Desktop\Practico1LabFinal\Practico1LabFinal\obj\Debug\net8.0\Practico1LabFinal.csproj.AssemblyReference.cache
+C:\Users\alejo\Desktop\Practico1LabFinal\Practico1LabFinal\obj\Debug\net8.0\Practico1LabFinal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alejo\Desktop\Practico1LabFinal\Practico1LabFinal\obj\Debug\net8.0\Practico1LabFinal.AssemblyInfoInputs.cache
+C:\Users\alejo\Desktop\Practico1LabFinal\Practico1LabFinal\obj\Debug\net8.0\Practico1LabFinal.AssemblyInfo.cs
+C:\Users\alejo\Desktop\Practico1LabFinal\Practico1LabFinal\obj\Debug\net8.0\Practico1LabFinal.csproj.CoreCompileInputs.cache
+C:\Users\alejo\Desktop\Practico1LabFinal\Practico1LabFinal\obj\Debug\net8.0\Practico1LabFinal.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\alejo\Desktop\Practico1LabFinal\Practico1LabFinal\obj\Debug\net8.0\Practico1LabFinal.RazorAssemblyInfo.cache
+C:\Users\alejo\Desktop\Practico1LabFinal\Practico1LabFinal\obj\Debug\net8.0\Practico1LabFinal.RazorAssemblyInfo.cs
+C:\Users\alejo\Desktop\Practico1LabFinal\Practico1LabFinal\obj\Debug\net8.0\Practico1LabFinal.sourcelink.json
