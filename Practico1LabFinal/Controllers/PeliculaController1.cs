@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Practico1Cabaña.Controllers
+namespace Practico1LabFinal.Controllers
 {
     public class PeliculaController1 : Controller
     {

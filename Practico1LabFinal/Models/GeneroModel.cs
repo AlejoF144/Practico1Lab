@@ -6,9 +6,9 @@ namespace Practico1LabFinal.Models
     {
         public int Id { get; set; }
         [MaxLength(200)]
-        public string Descripcion { get; set; }
+        public string? Descripcion { get; set; }
 
-        public ICollection<PeliculaModel> Peliculas { get; set; }
+        public ICollection<PeliculaModel>? Peliculas { get; set; }
     }
 
 }

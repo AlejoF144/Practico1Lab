@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Practico1LabFinal.Models;
 
-namespace Practico1Cabaña.Models
+namespace Practico1LabFinal.Models
 {
     public class AppDbContext : DbContext
     {

@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using Practico1Cabaña.Models;
+using Practico1LabFinal.Models;
 
 namespace Practico1Cabaña
 {
