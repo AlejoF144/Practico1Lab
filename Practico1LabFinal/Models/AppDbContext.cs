@@ -19,8 +19,6 @@ namespace Practico1LabFinal.Models
         {
             modelBuilder.Entity<PeliculaActorModel>()
                 .HasKey(pa => new { pa.PeliculaId, pa.PersonaId });
-
-
         }
     }
 }
