@@ -47,7 +47,7 @@ namespace Practico1LabFinal.Controllers
         // GET: PeliculaModels/Create
         public IActionResult Create()
         {
-            ViewData["GeneroId"] = new SelectList(_context.Generos, "Id", "Id");
+            ViewData["GeneroId"] = new SelectList(_context.Generos, "Id", "Descripcion");
             return View();
         }
 
@@ -64,7 +64,7 @@ namespace Practico1LabFinal.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["GeneroId"] = new SelectList(_context.Generos, "Id", "Id", peliculaModel.GeneroId);
+            ViewData["GeneroId"] = new SelectList(_context.Generos, "Id", "Descripcion", peliculaModel.GeneroId);
             return View(peliculaModel);
         }
 
@@ -81,7 +81,7 @@ namespace Practico1LabFinal.Controllers
             {
                 return NotFound();
             }
-            ViewData["GeneroId"] = new SelectList(_context.Generos, "Id", "Id", peliculaModel.GeneroId);
+            ViewData["GeneroId"] = new SelectList(_context.Generos, "Id", "Descripcion", peliculaModel.GeneroId);
             return View(peliculaModel);
         }
 
@@ -117,7 +117,7 @@ namespace Practico1LabFinal.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["GeneroId"] = new SelectList(_context.Generos, "Id", "Id", peliculaModel.GeneroId);
+            ViewData["GeneroId"] = new SelectList(_context.Generos, "Id", "Descripcion", peliculaModel.GeneroId);
             return View(peliculaModel);
         }
 

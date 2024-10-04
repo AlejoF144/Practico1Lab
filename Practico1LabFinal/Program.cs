@@ -35,7 +35,7 @@ namespace Practico1Cabaña
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+                pattern: "{controller=PeliculaModels}/{action=Index}/{id?}");
 
             app.Run();
         }
